@@ -1,0 +1,55 @@
+html{
+    min-width: 320px; 
+    max-width: 1400px;
+}
+body{
+    background:linear-gradient(45deg,#483d8b,#00bfff,#7cfc00);
+    background-repeat: no-repeat;
+    width: 940px;
+    height: 555px;
+    font-family: cursive;
+}
+.texto h1{
+    text-align: center;
+font-size: 2.378em;
+margin: 11% 0 14%;
+}
+.texto p{
+    text-align: center;
+    font-size: 1.85em;
+    
+
+}
+.texto{
+    margin: 10% 0 0 10%;
+    text-align: justify;
+}
+
+
+.botao-item{
+    margin: 35px 0 0;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 1.455em;
+   border: none;
+    border-radius: 30px;
+    transform: translate(270%, 11%);
+    padding: 15px;
+    width: 160px;
+    transition: 1s;
+    
+}
+.botao-item:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+.divisao{
+    transform: translate(-25%,13%);
+}
+
+.imagem{
+    position: absolute;
+    transform: translate(140%, -103%);
+    width: 40%;
+}
+

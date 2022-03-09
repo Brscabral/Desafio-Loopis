@@ -1,0 +1,82 @@
+.corpo{
+    width: 100vh;
+    height: 100vh;
+    background:linear-gradient(45deg,#483d8b,#00bfff,#7cfc00);
+    font-family: cursive;
+    background-size: 300% 300%;
+    animation: colors 5s ease infinite;
+}
+
+.conteiner{
+    margin: 10% 0 0 32%;
+    align-content: center;
+    display: grid;
+    background:rgba(255, 255, 255, .2);
+    border: 1px solid #808080;
+    border-radius: 10px;
+    width: 140%;
+    height: 100vh;
+    justify-content: center;
+}
+.titulo{
+    position: absolute;
+    margin: 3% 0 0 26%;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.caixa{
+    position: absolute;
+    margin: 120px 0 0 50px;
+    background-color: #faf0e6;
+    width: 790px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.caixa fieldset input{
+       position: relative; 
+        width: 780px;
+        height: 30px;
+        border-radius: 10px;
+    
+}
+.imagem-lupa{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 3%;
+    top: 33%;
+    
+}
+#pesquisa::placeholder{
+    color: black;
+    font-weight: 800;
+    font-size: 1em;
+    font-family: cursive;
+}
+.conteiner--filho{
+    position: absolute;
+    width: 822px;
+    height: 400px;
+    margin: 220px 0 0 47px;
+    background-color: #faf0e6
+}
+
+
+
+
+
+
+
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

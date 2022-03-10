@@ -29,7 +29,7 @@
 .caixa{
     position: absolute;
     margin: 120px 0 0 50px;
-    background-color: #faf0e6;
+    background-color: #d3d3d3;
     width: 790px;
     padding: 15px;
     border-radius: 10px;
@@ -60,8 +60,65 @@
     width: 822px;
     height: 400px;
     margin: 220px 0 0 47px;
-    background-color: #faf0e6
+    background-color: #d3d3d3;
 }
+.conteiner--filho .topo{
+    display: flex;
+    justify-content:center;
+    
+}
+#listaTarefa{
+    padding: 0;
+    margin: 0;
+}
+#novaTarefa{
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    margin: 15px 15px 0 15px;
+    border-radius: 10px;
+    border: none;
+}
+#btnAddTarefa{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    margin: 17px 0 0 0;
+    padding: 4px;
+    
+}
+
+.plus{
+    color: white;
+}
+
+#btnAddTarefa:hover{
+    cursor: pointer;
+}
+
+#listaTarefa li{
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.btnAcao{
+    background-color: #d3d3d3;
+    border-radius: 100%;
+    border: 1px;
+    width: 30px;
+    height: 30px;
+}
+.btnAcao:hover{
+    cursor: pointer;
+}
+
 
 
 

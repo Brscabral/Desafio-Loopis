@@ -6,51 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="atividades.css">
+    
     <title>atividades</title>
 </head>
-<body class="corpo">
+<body>
     
     <div class="conteiner">
         <h1 class="titulo">Loopis To-Do</h1>
-        <div class="caixa">
-            <fieldset>
-                <input type="text" class="search-txt" id="pesquisa" placeholder="Pesquisar">
-                <a href="#"> 
-                    <img src="imagem/imagem.svg.svg" alt="lupa" class="imagem-lupa">
-                </a>
-            </fieldset>
-        </div>
+        
         <div class="conteiner--filho">
             <div class="topo">
                 
-                    <input type="text" id="novaTarefa" placeholder="adicione uma nova tarefa">
+                    <input type="text" class="novatarefa" placeholder="adicione uma nova tarefa">
                     <button id="btnAddTarefa">
                         <i class="plus">&#10009;</i>
                     </button>
-                  
-                
-            </div>
-            <section>
-                <ul id="listaTarefa">
-                    <li>
-                        <span class="textoTarefa">Tarefa 1</span>
-                        <div>
-                            <button class="btnAcao">
-                                <i class="pencil">&#9998;</i>
-                            </button>
-                            <button class="btnAcao">
-                                <i class="trash">&#9850;</i>
-                            </button>
-                        </div>
-                    </li>
-                </ul>
-            </section>
+            </div> 
+            <div class="listaTarefa">
+                <ul></ul>
+            </div>     
             
         </div>
         
     </div>
     
     
-    
+    <script src="main.js"></script>
+
 </body>
 </html>
